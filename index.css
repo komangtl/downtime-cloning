@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+html {
+  font-family: 'Ubuntu', Arial, sans-serif;
+  background-color: white
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+.nav {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  opacity: 0.8;
+}
+
+.logo {
+  background-color: #E0AA88;
+  padding: 15px 225px;
+  
+}
+
+.topnav {
+  width: auto;
+  float: right;
+  margin: -57.5px 200px;
+  color: black;
+}
+
+li {
+  display: inline-block;
+  padding: 15px 0;
+  margin: 0 20px;
+  color: black;
+}
+
+.header {
+  background: #000 url(https://downtimebali.com/wp-content/uploads/2021/07/DT_InteriorWeb-1.jpg) ;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  line-height: 25px;
+  padding-top: 220px;
+  padding-bottom: 175px;
+  height: 660px;
+}
+
+.post-header-overlay {
+  background-color: black;
+  opacity: 0.2;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  position: absolute;
+}
+
+.textalign {
+  color: white;
+  z-index: 1;
+  position: relative;
+  margin-top: 22px;
+}
+
+h1 {
+  font-family: Avenir Next Condensed Medium, Arial, sans-serif;
+  font-size: 50px;
+  padding-bottom: 50px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 50px;
+  word-spacing: 0.1em;
+  color: white;
+}
+
+.buthead {
+  padding: 20px 30px;
+  margin: 10px;
+  font-family: Ubuntu, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  background: transparent;
+  border: solid 1px #fff;
+  color: #fff;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 50px 10%;
+  background-color: white;
+  height: 450px;
+}
+/* LEFT BOX */
+.content-left {
+  margin: 5px 20px;
+}
+
+.first {
+  border: solid #CE836F 2px;
+  background-color: transparent;
+  width: 450px;
+  height: 62px;
+  margin-bottom: 10px;
+  font-family: 'Ubuntu', Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  color: #CE836F;
+}
+.content-wrap-left {
+  background-color: #CE836F;
+  text-align: center;
+  font-size: 18px;
+  height: 200px;
+  width: 450px;
+}
+
+.first-p {
+  padding: 15px 50px;
+}
+
+/* MIDDLE BOX */
+.content-middle {
+  margin: 5px 20px;
+}
+
+.second {
+  border: solid #C8AD97 2px;
+  width: 450px;
+  height: 62px;
+  margin-bottom: 10px;
+  background-color: transparent;
+  font-family: 'Ubuntu', Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  color: #C8AD97;
+}
+
+.content-wrap-middle {
+  background-color: #C8AD97;
+  text-align: center;
+  font-size: 18px;
+  height: 200px;
+  width: 450px;
+}
+
+.second-p {
+  padding: 15px 50px;
+}
+
+/* RIGHT BOX */
+
+.content-right {
+  margin: 5px 20px;
+}
+
+.third {
+  border: solid #E0AA88 2px;
+  width: 450px;
+  height: 62px;
+  margin-bottom: 10px;
+  background-color: transparent;
+  font-family: 'Ubuntu', Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  color: #E0AA88;
+}
+
+.content-wrap-right {
+  background-color: #E0AA88;
+  text-align: center;
+  font-size: 18px;
+  height: 200px;
+  width: 450px;
+}
+
+.third-p {
+  padding: 15px 50px;
+}
+
+.img-size {
+  width: 50px;
+  margin: 20px 45% 0px 45%;
+}
+
+.contentwrap {
+
+}
+
